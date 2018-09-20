@@ -11,10 +11,11 @@ let render = new THREE.WebGLRenderer({
 
 //レンダラーの設定
 render.setClearColor(new THREE.Color('black'), 0);
-render.setSize(640, 480);
+render.setSize(720, 1080);
 render.domElement.style.position = 'absolute';
 render.domElement.style.top = '0px';
 render.domElement.style.left = '0px';
+render.gammaOutput = true;
 document.body.appendChild(render.domElement);
 
 //カメラの追加

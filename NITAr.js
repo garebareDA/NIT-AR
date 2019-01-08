@@ -1,5 +1,4 @@
 'use strict';
-let mesh;
 //シーンの作成
 const scene = new THREE.Scene();
 
